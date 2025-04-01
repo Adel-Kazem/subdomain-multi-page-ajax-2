@@ -19,6 +19,20 @@
             opacity: 0;
         }
     </style>
+
+    <script>
+        // Check if there's a path parameter and use it to navigate via history API
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const path = urlParams.get('path');
+
+            if (path) {
+                // Remove the query parameter
+                window.history.replaceState(null, null, path);
+                // Your router will handle this path automatically on init
+            }
+        });
+    </script>
 </head>
 <body
         x-data="{

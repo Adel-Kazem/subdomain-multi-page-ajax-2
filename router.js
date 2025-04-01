@@ -1,4 +1,4 @@
-// router.js - Client-side router for Prime Beef SPA
+// router.js - Client-side router for Prime Beef SPA with hash-based routing
 
 // Define routes configuration
 const routes = {
@@ -45,15 +45,12 @@ let params = {};
 
 // Initialize router
 function initRouter() {
-    // Listen for route changes using History API
-    window.addEventListener('popstate', handleRouteChange);
+    // Listen for hash changes
+    window.addEventListener('hashchange', handleRouteChange);
 
-    // Handle clicks on links
+    // Handle clicks on links with data-spa-link attribute
     document.addEventListener('click', e => {
-        // Find closest anchor tag
         const link = e.target.closest('a');
-
-        // Only handle links with 'data-spa-link' attribute
         if (link && link.hasAttribute('data-spa-link')) {
             e.preventDefault();
             const href = link.getAttribute('href');
@@ -67,8 +64,9 @@ function initRouter() {
 
 // Handle route changes
 function handleRouteChange() {
-    // Get current path or default to home
-    const path = window.location.pathname || '/';
+    // Get path from hash or default to home page
+    // Remove the # and get the path that follows, or use '/' if no hash exists
+    const path = window.location.hash.slice(1) || '/';
 
     // Find matching route
     let matchedRoute = null;
@@ -83,11 +81,9 @@ function handleRouteChange() {
             if (routePath.includes(':')) {
                 const routeParts = routePath.split('/');
                 const pathParts = path.split('/');
-
                 if (routeParts.length === pathParts.length) {
                     let isMatch = true;
                     const params = {};
-
                     for (let i = 0; i < routeParts.length; i++) {
                         if (routeParts[i].startsWith(':')) {
                             // This is a parameter
@@ -98,7 +94,6 @@ function handleRouteChange() {
                             break;
                         }
                     }
-
                     if (isMatch) {
                         matchedRoute = routes[routePath];
                         matchedParams = params;
@@ -117,7 +112,7 @@ function handleRouteChange() {
     } else {
         // Not found - could render a 404 page
         console.error('Route not found:', path);
-        // Optional: redirect to home or show 404
+        // Redirect to home
         navigateTo('/');
     }
 }
@@ -130,41 +125,47 @@ function renderRoute(route, params) {
     // Get the main content container
     const mainContent = document.getElementById('main-content');
 
-    // Get the template
-    const template = document.getElementById(route.template);
+    // Add fade out class for transition effect
+    mainContent.classList.add('fade-out');
 
-    if (template && mainContent) {
-        // Clone template content
-        const content = template.content.cloneNode(true);
+    // Delay content update for transition effect
+    setTimeout(() => {
+        // Get the template
+        const template = document.getElementById(route.template);
+        if (template && mainContent) {
+            // Clone template content
+            const content = template.content.cloneNode(true);
 
-        // Clear and update main content
-        mainContent.innerHTML = '';
-        mainContent.appendChild(content);
+            // Clear and update main content
+            mainContent.innerHTML = '';
+            mainContent.appendChild(content);
 
-        // Initialize the page with params
-        if (typeof route.init === 'function') {
-            route.init(params);
+            // Initialize the page with params
+            if (typeof route.init === 'function') {
+                route.init(params);
+            }
+
+            // Re-initialize Alpine.js on new DOM content
+            if (window.Alpine) {
+                window.Alpine.initTree(mainContent);
+            }
+
+            // Remove fade out class for transition in
+            mainContent.classList.remove('fade-out');
+
+            // Scroll to top
+            window.scrollTo(0, 0);
+        } else {
+            console.error('Template or main content container not found');
         }
-
-        // Scroll to top
-        window.scrollTo(0, 0);
-
-        // Re-initialize Alpine.js on new DOM content
-        if (window.Alpine) {
-            window.Alpine.initTree(mainContent);
-        }
-    } else {
-        console.error('Template or main content container not found');
-    }
+    }, 200); // Match this timing with your CSS transition
 }
 
 // Navigate to a specific route
 function navigateTo(path) {
-    // Update browser history
-    window.history.pushState({}, '', path);
-
-    // Handle the route change
-    handleRouteChange();
+    // Update browser hash
+    window.location.hash = path;
+    // Note: handleRouteChange will be called automatically by the hashchange event
 }
 
 // Page initialization functions
@@ -178,7 +179,6 @@ function initProductsPage(params) {
     // Get the category from URL query parameters
     const urlParams = new URLSearchParams(window.location.search);
     const category = urlParams.get('category');
-
     if (category) {
         // Set the selected category in Alpine.js
         const mainContent = document.getElementById('main-content');
@@ -191,7 +191,7 @@ function initProductsPage(params) {
 function initProductDetailPage(params) {
     console.log('Product detail page initialized for product ID:', params.id);
     // Load specific product data
-    // This would fetch the  product by ID and update the UI
+    // This would fetch the product by ID and update the UI
 }
 
 function initCartPage() {
