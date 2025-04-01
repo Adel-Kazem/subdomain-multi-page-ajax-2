@@ -163,9 +163,9 @@ function renderRoute(route, params) {
 
 // Navigate to a specific route
 function navigateTo(path) {
-    // Update browser hash
-    window.location.hash = path;
-    // Note: handleRouteChange will be called automatically by the hashchange event
+    // Make sure path doesn't already have a hash
+    const cleanPath = path.startsWith('#') ? path : '#' + path;
+    window.location.hash = cleanPath;
 }
 
 // Page initialization functions

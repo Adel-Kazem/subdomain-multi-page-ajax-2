@@ -204,11 +204,11 @@
 
         <!-- Desktop Navigation -->
         <nav id="desktop-nav" class="hidden md:flex space-x-8">
-            <a id="home-link" href="/" data-spa-link class="hover:text-yellow-300 transition-colors">Home</a>
-            <a id="about-link" href="/about" data-spa-link class="hover:text-yellow-300 transition-colors">About Us</a>
-            <a id="products-link" href="/products" data-spa-link class="hover:text-yellow-300 transition-colors">Products</a>
-            <a id="services-link" href="/services" data-spa-link class="hover:text-yellow-300 transition-colors">Services</a>
-            <a id="contact-link" href="/contact" data-spa-link class="hover:text-yellow-300 transition-colors">Contact</a>
+            <a id="home-link" href="#/" data-spa-link class="hover:text-yellow-300 transition-colors">Home</a>
+            <a id="about-link" href="#/about" data-spa-link class="hover:text-yellow-300 transition-colors">About Us</a>
+            <a id="products-link" href="#/products" data-spa-link class="hover:text-yellow-300 transition-colors">Products</a>
+            <a id="services-link" href="#/services" data-spa-link class="hover:text-yellow-300 transition-colors">Services</a>
+            <a id="contact-link" href="#/contact" data-spa-link class="hover:text-yellow-300 transition-colors">Contact</a>
         </nav>
 
         <!-- Mobile Menu Button -->
@@ -222,13 +222,14 @@
     <!-- Mobile Navigation -->
     <div id="mobile-nav" x-show="isMenuOpen" x-cloak @click.away="isMenuOpen = false" class="md:hidden bg-red-800 px-4 py-2">
         <div class="flex flex-col space-y-3">
-            <a id="mobile-home-link" href="/" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">Home</a>
-            <a id="mobile-about-link" href="/about" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">About Us</a>
-            <a id="mobile-products-link" href="/products" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">Products</a>
-            <a id="mobile-services-link" href="/services" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">Services</a>
-            <a id="mobile-contact-link" href="/contact" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">Contact</a>
+            <a id="mobile-home-link" href="#/" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">Home</a>
+            <a id="mobile-about-link" href="#/about" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">About Us</a>
+            <a id="mobile-products-link" href="#/products" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">Products</a>
+            <a id="mobile-services-link" href="#/services" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">Services</a>
+            <a id="mobile-contact-link" href="#/contact" data-spa-link @click="isMenuOpen = false" class="text-white hover:text-yellow-300 transition-colors">Contact</a>
         </div>
     </div>
+
 </header>
 
 <!-- Main Content Container -->
