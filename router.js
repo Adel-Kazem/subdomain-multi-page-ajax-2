@@ -191,7 +191,7 @@ function initProductsPage(params) {
 function initProductDetailPage(params) {
     console.log('Product detail page initialized for product ID:', params.id);
     // Load specific product data
-    // This would fetch the product by ID and update the UI
+    // This would fetch the  product by ID and update the UI
 }
 
 function initCartPage() {
