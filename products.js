@@ -262,7 +262,7 @@ const PRODUCTS = [
     },
     relatedProducts: [],
     upsellProducts: [],
-    availability: "out_of_stock",
+    availability: "in_stock",
     backorderLimit: 0
   }
 ];
