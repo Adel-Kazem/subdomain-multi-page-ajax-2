@@ -96,8 +96,16 @@ const PRODUCTS = [
     new: false,
     onSale: false,
     shipping: {
-      weight: { value: 0, unit: 'lb' },
-      dimensions: { length: 0, width: 0, height: 0, unit: 'in' },
+      weight: {
+        value: 0,
+        unit: 'lb'
+      },
+      dimensions: {
+        length: 0,
+        width: 0,
+        height: 0,
+        unit: 'in'
+      },
       freeShipping: false
     },
     images: [
@@ -190,6 +198,71 @@ const PRODUCTS = [
     relatedProducts: [],
     upsellProducts: [],
     availability: "in_stock",
+    backorderLimit: 0
+  },
+  {
+    id: 4,
+    sku: "Perspiciatis dolor",
+    name: 'Facilis debitis labo',
+    slug: 'Ad provident aliqua',
+    description: 'Rem maxime porro dis',
+    metaDescription: 'Exercitation deserun',
+    price: 57,
+    salePrice: 74,
+    costPrice: 20,
+    taxClass: 'zero',
+    rating: 0,
+    reviewCount: 28,
+    stock: 84,
+    lowStockThreshold: 87,
+    categoryId: 2,
+    tags: [],
+    brand: 'Consectetur nihil e',
+    featured: true,
+    new: true,
+    onSale: true,
+    shipping: {
+      weight: {
+        value: 4,
+        unit: 'kg'
+      },
+      dimensions: {
+        length: 69,
+        width: 36,
+        height: 42,
+        unit: 'in'
+      },
+      freeShipping: true
+    },
+    images: [
+      'https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-3.jpg',
+      'https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-4.jpg'
+    ],
+    variants: [
+      {
+        id: 'v1743605499223',
+        sku: "Ea pariatur Officia",
+        name: "Deserunt dicta magni",
+        price: 8,
+        salePrice: 78,
+        stock: 30,
+        attributes: {
+        },
+        weight: 55,
+        dimensions: {
+          length: 19,
+          width: 46,
+          height: 66,
+          unit: 'in'
+        }
+      }
+    ],
+    features: [],
+    specifications: {
+    },
+    relatedProducts: [],
+    upsellProducts: [],
+    availability: "out_of_stock",
     backorderLimit: 0
   }
 ];
