@@ -1,3 +1,18 @@
+const CATEGORIES = [
+  {
+    id: 1,
+    name: "Libero cupiditate el",
+    slug: "Cum possimus archit",
+    description: "Labore sed tempore",
+    image: "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/category_images/perfect images.png",
+    featured: true,
+    parent_id: null,
+    active: false,
+    display_order: 1,
+    product_count: 0
+  }
+];
+
 const PRODUCTS = [
   {
     id: 1,
