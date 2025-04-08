@@ -1,3 +1,18 @@
+const CATEGORIES = [
+  {
+    id: 1,
+    name: "Pariatur Non in vol",
+    slug: "Eu consequatur rem v",
+    description: "Quia aute nesciunt",
+    image: "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/category_images/perfect images.png",
+    featured: true,
+    parent_id: null,
+    active: true,
+    display_order: 40,
+    product_count: 0
+  }
+];
+
 const PRODUCTS = [
   {
     id: 1,
