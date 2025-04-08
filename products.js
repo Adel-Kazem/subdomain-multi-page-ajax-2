@@ -106,7 +106,7 @@ const PRODUCTS = [
   {
     id: 3,
     sku: 'Consequat Laboris a',
-    name: 'Odio voluptatem Dolcasdf',
+    name: 'Odio voluptatem Dolcasdfasdf asdf ',
     slug: 'Temporibus laboris e',
     description: 'Take your music anywhere with our compact yet powerful Bluetooth speaker. Featuring 360° sound, waterproof design, and 12 hours of playback for the perfect outdoor companion.',
     metaDescription: '',
@@ -153,6 +153,6 @@ const PRODUCTS = [
     },
     sale: false,
     created_at: '2025-04-08T11:26:38.286Z',
-    updated_at: '2025-04-08T11:52:20.388Z'
+    updated_at: '2025-04-08T19:08:33.094Z'
   }
 ];
