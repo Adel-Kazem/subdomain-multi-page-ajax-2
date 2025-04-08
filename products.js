@@ -15,13 +15,10 @@ const PRODUCTS = [
     stock: 15,
     lowStockThreshold: 5,
     categoryId: 1,
-    tags: [
-    ],
     brand: '',
     featured: false,
     new: false,
     onSale: false,
-    shipping: [object Object],
     images: [
       'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
@@ -38,7 +35,6 @@ const PRODUCTS = [
       'Quick charge (5 min = 3 hours)',
       'Voice assistant compatible'
     ],
-    specifications: [object Object],
     relatedProducts: [
     ],
     upsellProducts: [
@@ -72,13 +68,10 @@ const PRODUCTS = [
     stock: 42,
     lowStockThreshold: 5,
     categoryId: 1,
-    tags: [
-    ],
     brand: '',
     featured: false,
     new: false,
     onSale: false,
-    shipping: [object Object],
     images: [
       'https://images.unsplash.com/photo-1575311373937-040b8e1fd6b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1551816230-ef5deaed4a26?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
@@ -93,7 +86,6 @@ const PRODUCTS = [
       '7-day battery life',
       'Smartphone notifications'
     ],
-    specifications: [object Object],
     relatedProducts: [
     ],
     upsellProducts: [
@@ -127,13 +119,10 @@ const PRODUCTS = [
     stock: 28,
     lowStockThreshold: 5,
     categoryId: 1,
-    tags: [
-    ],
     brand: '',
     featured: false,
     new: false,
     onSale: false,
-    shipping: [object Object],
     images: [
       'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
       'https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80',
@@ -149,7 +138,6 @@ const PRODUCTS = [
       'Built-in microphone',
       'Portable design'
     ],
-    specifications: [object Object],
     relatedProducts: [
     ],
     upsellProducts: [
