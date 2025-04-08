@@ -1,18 +1,3 @@
-const CATEGORIES = [
-  {
-    id: 1,
-    name: "Pariatur Non in vol",
-    slug: "Eu consequatur rem v",
-    description: "Quia aute nesciunt",
-    image: "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/category_images/perfect images.png",
-    featured: true,
-    parent_id: null,
-    active: true,
-    display_order: 40,
-    product_count: 0
-  }
-];
-
 const PRODUCTS = [
   {
     id: 1,
@@ -161,6 +146,7 @@ const PRODUCTS = [
     backorderLimit: 0,
     status: 'active',
     category_ids: [
+      1
     ],
     options: {
     },
@@ -168,6 +154,6 @@ const PRODUCTS = [
     },
     sale: false,
     created_at: '2025-04-08T11:26:38.286Z',
-    updated_at: '2025-04-08T19:08:33.094Z'
+    updated_at: '2025-04-08T19:11:05.767Z'
   }
 ];
