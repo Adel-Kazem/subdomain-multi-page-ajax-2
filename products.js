@@ -27,20 +27,28 @@ const PRODUCTS = [
       includedResources: "Source code, examples, and templates",
       lastUpdated: "March 2025",
       accessType: "Immediate download",
-      drm: "None - DRM free",
-      testststst: "test"
+      drm: "None - DRM free"
     },
     images: [
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop"
     ],
-    options: {},
+    options: {
+      color: [
+      "blue",
+      "red"
+    ]
+    },
     option_images: {},
     variant_images: {},
     option_variants_stock: {},
-    option_price_adjustments: {},
-    option_shipping_adjustments: {},
+    option_price_adjustments: {
+      "color:Value 1": 11
+    },
+    option_shipping_adjustments: {
+      "color:Value 1": 33
+    },
     weight: {
       value: 0,
       unit: "kg"
@@ -70,7 +78,7 @@ const PRODUCTS = [
       1003
     ],
     createdAt: "2025-01-10T13:20:00Z",
-    updatedAt: "2025-04-09T17:09:52.695Z"
+    updatedAt: "2025-04-09T17:11:15.794Z"
   },
   {
     id: 2001,
