@@ -16,9 +16,9 @@ const PRODUCTS = [
     isOnSale: false,
     requiresShipping: true,
     requiresInventoryTracking: true,
-    stock: 0,
-    hasVariants: true,
-    totalVariantStock: 1,
+    stock: 15,
+    hasVariants: false,
+    totalVariantStock: 0,
     lowStockThreshold: 5,
     features: {
       0: "Active Noise Cancellation",
@@ -33,20 +33,10 @@ const PRODUCTS = [
       "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
     ],
-    options: {
-      newOption0: [
-      "Value 1"
-    ]
-    },
-    option_images: {
-      newOption0: {
-      Value 1: []
-    }
-    },
+    options: {},
+    option_images: {},
     variant_images: {},
-    option_variants_stock: {
-      Value 1: 1
-    },
+    option_variants_stock: {},
     option_price_adjustments: {},
     option_shipping_adjustments: {},
     weight: {
@@ -63,7 +53,7 @@ const PRODUCTS = [
     categories: [],
     relatedProducts: [],
     createdAt: "2025-04-09T16:52:33.861Z",
-    updatedAt: "2025-04-09T16:54:30.117Z",
+    updatedAt: "2025-04-09T16:52:49.481Z",
     availability: "in_stock",
     backorderLimit: 0,
     category_ids: [],
