@@ -13,7 +13,7 @@ const PRODUCTS = [
     reviews_count: 163,
     status: "active",
     isFeatured: true,
-    isOnSale: false,
+    isOnSale: true,
     requiresShipping: false,
     requiresInventoryTracking: true,
     stock: 999,
@@ -27,7 +27,8 @@ const PRODUCTS = [
       includedResources: "Source code, examples, and templates",
       lastUpdated: "March 2025",
       accessType: "Immediate download",
-      drm: "None - DRM free"
+      drm: "None - DRM free",
+      testststst: "test"
     },
     images: [
       "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop",
@@ -69,7 +70,7 @@ const PRODUCTS = [
       1003
     ],
     createdAt: "2025-01-10T13:20:00Z",
-    updatedAt: "2025-04-09T17:07:07.511Z"
+    updatedAt: "2025-04-09T17:09:52.695Z"
   },
   {
     id: 2001,
