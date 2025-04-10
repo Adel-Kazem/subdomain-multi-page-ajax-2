@@ -81,7 +81,7 @@ const PRODUCTS = [
  1003
  ],
  createdAt: "2025-01-10T13:20:00Z",
- updatedAt: "2025-04-10T08:02:39.586Z"
+ updatedAt: "2025-04-10T08:06:30.730Z"
  },
  {
  id: 2001,
@@ -419,5 +419,99 @@ const PRODUCTS = [
  ],
  createdAt: "2025-01-05T09:00:00Z",
  updatedAt: "2025-04-10T06:54:51.600Z"
+ },
+ {
+ id: 9000,
+ name: "Sint eum eos iste p",
+ description: "Vero minim architect",
+ base_price: 57,
+ base_shipping_cost: 23,
+ free_shipping: false,
+ sku: "Commodi anim harum e",
+ slug: "new-product",
+ brand: "Enim corporis mollit",
+ rating: 0,
+ reviews_count: 0,
+ status: "archived",
+ isFeatured: false,
+ isOnSale: true,
+ requiresShipping: false,
+ requiresInventoryTracking: true,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-3.jpg",
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshleyWeston.jpg"
+ ],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 75,
+ unit: "lb"
+ },
+ dimensions: {
+ length: 44,
+ width: 3,
+ height: 3,
+ unit: "cm"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T08:06:17.399Z",
+ updatedAt: "2025-04-10T08:06:17.399Z"
+ },
+ {
+ id: 9000,
+ name: "Sint eum eos iste p",
+ description: "Vero minim architect",
+ base_price: 57,
+ base_shipping_cost: 23,
+ free_shipping: false,
+ sku: "Commodi anim harum e",
+ slug: "new-product",
+ brand: "Enim corporis mollit",
+ rating: 0,
+ reviews_count: 0,
+ status: "archived",
+ isFeatured: false,
+ isOnSale: true,
+ requiresShipping: false,
+ requiresInventoryTracking: true,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-3.jpg",
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshleyWeston.jpg"
+ ],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 75,
+ unit: "lb"
+ },
+ dimensions: {
+ length: 44,
+ width: 3,
+ height: 3,
+ unit: "cm"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T08:06:30.730Z",
+ updatedAt: "2025-04-10T08:06:30.730Z"
  }
 ];
