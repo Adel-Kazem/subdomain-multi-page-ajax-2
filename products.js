@@ -482,5 +482,51 @@ const PRODUCTS = [
  categories: [],
  createdAt: "2025-04-10T17:19:50.304Z",
  updatedAt: "2025-04-10T17:19:50.304Z"
+ },
+ {
+ id: 3004,
+ name: "testttt",
+ description: "Nisi blanditiis non ",
+ base_price: 19,
+ base_shipping_cost: 0,
+ free_shipping: true,
+ sku: "Fugiat praesentium e",
+ slug: "new-product",
+ brand: "Nemo aut veritatis p",
+ rating: 0,
+ reviews_count: 0,
+ status: "active",
+ isFeatured: true,
+ isOnSale: true,
+ requiresShipping: true,
+ requiresInventoryTracking: false,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-4.jpg"
+ ],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 12,
+ unit: "lb"
+ },
+ dimensions: {
+ length: 95,
+ width: 14,
+ height: 53,
+ unit: "in"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T17:21:02.105Z",
+ updatedAt: "2025-04-10T17:21:02.105Z"
  }
 ];
