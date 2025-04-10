@@ -69,11 +69,11 @@ const PRODUCTS = [
             1003
         ],
         "createdAt": "2025-01-10T13:20:00Z",
-        "updatedAt": "2025-04-10T09:08:05.884Z"
+        "updatedAt": "2025-04-10T09:09:10.601Z"
     },
     {
         "id": 2001,
-        "name": "SoundWave Portable Bluetooth Speaker",
+        "name": "asdf asdf",
         "slug": "soundwave-portable-bluetooth-speaker",
         "sku": "AUDIO-SPK-2001",
         "brand": "SoundWave",
@@ -90,7 +90,7 @@ const PRODUCTS = [
         "requiresInventoryTracking": true,
         "stock": 0,
         "hasVariants": true,
-        "totalVariantStock": 215,
+        "totalVariantStock": 111311,
         "lowStockThreshold": 15,
         "weight": {
             "value": 0.85,
@@ -161,7 +161,7 @@ const PRODUCTS = [
         "option_variants_stock": {
             "black|standard": 30,
             "black|sport": 25,
-            "black|premium": 15,
+            "black|premium": 111111,
             "blue|standard": 25,
             "blue|sport": 20,
             "blue|premium": 10,
@@ -211,7 +211,7 @@ const PRODUCTS = [
             2003
         ],
         "createdAt": "2025-01-15T11:30:00Z",
-        "updatedAt": "2025-04-10T09:08:05.884Z"
+        "updatedAt": "2025-04-10T09:09:10.601Z"
     },
     {
         "id": 3001,
@@ -406,7 +406,7 @@ const PRODUCTS = [
             3003
         ],
         "createdAt": "2025-01-05T09:00:00Z",
-        "updatedAt": "2025-04-10T09:08:05.884Z"
+        "updatedAt": "2025-04-10T09:09:10.601Z"
     },
     {
         "id": 1,
@@ -453,6 +453,6 @@ const PRODUCTS = [
         "crossSelling": [],
         "relatedProducts": [],
         "createdAt": "2025-04-10T09:07:53.181Z",
-        "updatedAt": "2025-04-10T09:08:05.884Z"
+        "updatedAt": "2025-04-10T09:09:10.602Z"
     }
 ];
