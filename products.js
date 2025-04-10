@@ -337,25 +337,8 @@ const PRODUCTS = [
  "amd ryzen 9 7950X|nvidia rtx 4080 12GB|32GB DDR5|2TB NVMe|15.6\" QHD 240Hz|windows 11 pro": 5,
  "amd ryzen 9 7950X|nvidia rtx 4090 16GB|64GB DDR5|2TB NVMe|17.3\" QHD 240Hz|windows 11 pro": 3
  },
- option_price_adjustments: {
- "processorsdf:intel i9-14900HX": 300,
- "processorsdf:amd ryzen 9 7950X": 250,
- "graphics:nvidia rtx 4080 12GB": 300,
- "graphics:nvidia rtx 4090 16GB": 800,
- "ram:32GB DDR5": 150,
- "ram:64GB DDR5": 400,
- "storage:1TB NVMe": 100,
- "storage:2TB NVMe": 250,
- "storage:4TB NVMe": 500,
- "display:15.6\" QHD 240Hz": 200,
- "display:17.3\" FHD 144Hz": 150,
- "display:17.3\" QHD 240Hz": 350,
- "os:windows 11 pro": 100
- },
- option_shipping_adjustments: {
- "display:17.3\" FHD 144Hz": 10,
- "display:17.3\" QHD 240Hz": 10
- },
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
  weight: {
  value: 2.2,
  unit: "kg"
@@ -410,6 +393,6 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-10T16:25:14.862Z"
+ updatedAt: "2025-04-10T16:25:25.997Z"
  }
 ];
