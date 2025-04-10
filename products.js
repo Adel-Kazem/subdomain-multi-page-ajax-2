@@ -445,19 +445,19 @@ const PRODUCTS = [
  updatedAt: "2025-04-10T17:21:02.105Z"
  },
  {
- id: 3009,
- name: "asdfasdf asf asdf asdf asdf asdf ",
- description: "Quisquam voluptatem",
- base_price: 43,
- base_shipping_cost: 0,
- free_shipping: true,
- sku: "Excepturi mollitia o",
+ id: 3005,
+ name: "vimto",
+ description: "Officia qui aut aper",
+ base_price: 20,
+ base_shipping_cost: 3,
+ free_shipping: false,
+ sku: "Sint laborum Ration",
  slug: "new-product",
- brand: "Illo et in et sint l",
+ brand: "Eveniet omnis aliqu",
  rating: 0,
  reviews_count: 0,
- status: "archived",
- isFeatured: true,
+ status: "active",
+ isFeatured: false,
  isOnSale: true,
  requiresShipping: true,
  requiresInventoryTracking: false,
@@ -467,7 +467,7 @@ const PRODUCTS = [
  lowStockThreshold: 5,
  features: {},
  images: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshleyWeston.jpg"
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-4.jpg"
  ],
  options: {
  color: [
@@ -498,18 +498,18 @@ const PRODUCTS = [
  option_price_adjustments: {},
  option_shipping_adjustments: {},
  weight: {
- value: 61,
+ value: 96,
  unit: "oz"
  },
  dimensions: {
- length: 6,
- width: 48,
- height: 31,
- unit: "in"
+ length: 31,
+ width: 82,
+ height: 15,
+ unit: "mm"
  },
  option_dimension_overrides: {},
  categories: [],
- createdAt: "2025-04-10T17:34:27.314Z",
- updatedAt: "2025-04-10T18:00:04.495Z"
+ createdAt: "2025-04-10T18:00:29.539Z",
+ updatedAt: "2025-04-10T18:00:29.539Z"
  }
 ];
