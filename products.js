@@ -32,7 +32,8 @@ const PRODUCTS = [
  images: [
  "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&auto=format&fit=crop",
  "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop"
+ "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&auto=format&fit=crop",
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshleyWeston.jpg"
  ],
  options: {
  color: [
@@ -74,7 +75,7 @@ const PRODUCTS = [
  1003
  ],
  createdAt: "2025-01-10T13:20:00Z",
- updatedAt: "2025-04-10T06:54:51.600Z"
+ updatedAt: "2025-04-10T08:01:58.772Z"
  },
  {
  id: 2001,
