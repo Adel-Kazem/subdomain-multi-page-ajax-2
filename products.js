@@ -574,5 +574,97 @@ const PRODUCTS = [
  categories: [],
  createdAt: "2025-04-10T17:01:41.112Z",
  updatedAt: "2025-04-10T17:01:41.112Z"
+ },
+ {
+ id: 3005,
+ name: "Consequat Ea saepe ",
+ description: "Cupidatat commodi no",
+ base_price: 47,
+ base_shipping_cost: 5,
+ free_shipping: false,
+ sku: "Nam rerum aliquam od",
+ slug: "new-product",
+ brand: "Non architecto magni",
+ rating: 0,
+ reviews_count: 0,
+ status: "draft",
+ isFeatured: true,
+ isOnSale: false,
+ requiresShipping: false,
+ requiresInventoryTracking: false,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-details.jpg"
+ ],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 32,
+ unit: "lb"
+ },
+ dimensions: {
+ length: 76,
+ width: 33,
+ height: 6,
+ unit: "mm"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T17:01:58.884Z",
+ updatedAt: "2025-04-10T17:01:58.884Z"
+ },
+ {
+ id: 3005,
+ name: "Consequat Ea saepe ",
+ description: "Cupidatat commodi no",
+ base_price: 47,
+ base_shipping_cost: 5,
+ free_shipping: false,
+ sku: "Nam rerum aliquam od",
+ slug: "new-product",
+ brand: "Non architecto magni",
+ rating: 0,
+ reviews_count: 0,
+ status: "draft",
+ isFeatured: true,
+ isOnSale: false,
+ requiresShipping: false,
+ requiresInventoryTracking: false,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-details.jpg"
+ ],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 32,
+ unit: "lb"
+ },
+ dimensions: {
+ length: 76,
+ width: 33,
+ height: 6,
+ unit: "mm"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T17:02:06.918Z",
+ updatedAt: "2025-04-10T17:02:06.918Z"
  }
 ];
