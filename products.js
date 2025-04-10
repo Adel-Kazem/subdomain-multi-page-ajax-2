@@ -528,5 +528,49 @@ const PRODUCTS = [
  categories: [],
  createdAt: "2025-04-10T17:21:02.105Z",
  updatedAt: "2025-04-10T17:21:02.105Z"
+ },
+ {
+ id: 3005,
+ name: "test 2 ",
+ description: "",
+ base_price: 0,
+ base_shipping_cost: 0,
+ free_shipping: false,
+ sku: "PRD-3005",
+ slug: "new-product",
+ brand: "",
+ rating: 0,
+ reviews_count: 0,
+ status: "active",
+ isFeatured: false,
+ isOnSale: false,
+ requiresShipping: true,
+ requiresInventoryTracking: true,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 0,
+ unit: "kg"
+ },
+ dimensions: {
+ length: 0,
+ width: 0,
+ height: 0,
+ unit: "cm"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T17:25:22.883Z",
+ updatedAt: "2025-04-10T17:25:22.883Z"
  }
 ];
