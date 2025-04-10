@@ -466,8 +466,30 @@ const PRODUCTS = [
  images: [
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshleyWeston.jpg"
  ],
- options: {},
- option_images: {},
+ options: {
+ color: [
+ "blue",
+ "white"
+ ]
+ },
+ option_images: {
+ newOption0: {
+ blue: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshley.Weston.jpg"
+ ],
+ white: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/belt-wolf-of-wallstreet-leonardo-di-caprio-v0-qd479m2ochjb1.webp"
+ ]
+ },
+ color: {
+ blue: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshley.Weston.jpg"
+ ],
+ white: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/belt-wolf-of-wallstreet-leonardo-di-caprio-v0-qd479m2ochjb1.webp"
+ ]
+ }
+ },
  variant_images: {},
  option_variants_stock: {},
  option_price_adjustments: {},
@@ -485,6 +507,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-10T17:34:27.314Z",
- updatedAt: "2025-04-10T17:46:06.490Z"
+ updatedAt: "2025-04-10T17:48:29.900Z"
  }
 ];
