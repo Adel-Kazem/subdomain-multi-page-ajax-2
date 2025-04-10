@@ -446,7 +446,7 @@ const PRODUCTS = [
  },
  {
  id: 3009,
- name: "Incididunt amet exc",
+ name: "Incididunt amet excsdf",
  description: "Quisquam voluptatem",
  base_price: 43,
  base_shipping_cost: 0,
@@ -510,6 +510,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-10T17:34:27.314Z",
- updatedAt: "2025-04-10T17:48:29.900Z"
+ updatedAt: "2025-04-10T17:56:13.820Z"
  }
 ];
