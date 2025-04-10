@@ -438,5 +438,49 @@ const PRODUCTS = [
  categories: [],
  createdAt: "2025-04-10T17:14:04.798Z",
  updatedAt: "2025-04-10T17:14:04.798Z"
+ },
+ {
+ id: 3003,
+ name: "Sequi reprehenderit ",
+ description: "Sit saepe minima iur",
+ base_price: 36,
+ base_shipping_cost: 69,
+ free_shipping: false,
+ sku: "Voluptas tempora qui",
+ slug: "new-product",
+ brand: "Aut sit voluptates a",
+ rating: 0,
+ reviews_count: 0,
+ status: "draft",
+ isFeatured: false,
+ isOnSale: false,
+ requiresShipping: false,
+ requiresInventoryTracking: true,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 75,
+ unit: "kg"
+ },
+ dimensions: {
+ length: 52,
+ width: 34,
+ height: 34,
+ unit: "in"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T17:19:50.304Z",
+ updatedAt: "2025-04-10T17:19:50.304Z"
  }
 ];
