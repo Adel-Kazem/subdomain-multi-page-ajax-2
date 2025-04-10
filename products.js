@@ -551,7 +551,9 @@ const PRODUCTS = [
  totalVariantStock: 0,
  lowStockThreshold: 5,
  features: {},
- images: [],
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-3.jpg"
+ ],
  options: {},
  option_images: {},
  variant_images: {},
@@ -571,6 +573,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-10T17:34:27.314Z",
- updatedAt: "2025-04-10T17:37:24.315Z"
+ updatedAt: "2025-04-10T17:37:47.771Z"
  }
 ];
