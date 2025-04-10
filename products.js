@@ -443,28 +443,28 @@ const PRODUCTS = [
  },
  {
  id: 3009,
- name: "asdffdsaasdffda",
- description: "",
- base_price: 0,
+ name: "Incididunt amet exc",
+ description: "Quisquam voluptatem",
+ base_price: 43,
  base_shipping_cost: 0,
- free_shipping: false,
- sku: "PRD-3009",
+ free_shipping: true,
+ sku: "Excepturi mollitia o",
  slug: "new-product",
- brand: "",
+ brand: "Illo et in et sint l",
  rating: 0,
  reviews_count: 0,
- status: "active",
- isFeatured: false,
- isOnSale: false,
+ status: "archived",
+ isFeatured: true,
+ isOnSale: true,
  requiresShipping: true,
- requiresInventoryTracking: true,
+ requiresInventoryTracking: false,
  stock: 0,
  hasVariants: false,
  totalVariantStock: 0,
  lowStockThreshold: 5,
  features: {},
  images: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-3.jpg"
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshleyWeston.jpg"
  ],
  options: {},
  option_images: {},
@@ -473,18 +473,18 @@ const PRODUCTS = [
  option_price_adjustments: {},
  option_shipping_adjustments: {},
  weight: {
- value: 0,
- unit: "kg"
+ value: 61,
+ unit: "oz"
  },
  dimensions: {
- length: 0,
- width: 0,
- height: 0,
- unit: "cm"
+ length: 6,
+ width: 48,
+ height: 31,
+ unit: "in"
  },
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-10T17:34:27.314Z",
- updatedAt: "2025-04-10T17:37:47.771Z"
+ updatedAt: "2025-04-10T17:46:06.490Z"
  }
 ];
