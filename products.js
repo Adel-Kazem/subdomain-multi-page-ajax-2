@@ -41,7 +41,13 @@ const PRODUCTS = [
  "red"
  ]
  },
- option_images: {},
+ option_images: {
+ color: {
+ blue: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshley.Weston.jpg"
+ ]
+ }
+ },
  variant_images: {},
  option_variants_stock: {},
  option_price_adjustments: {},
@@ -75,7 +81,7 @@ const PRODUCTS = [
  1003
  ],
  createdAt: "2025-01-10T13:20:00Z",
- updatedAt: "2025-04-10T08:01:58.772Z"
+ updatedAt: "2025-04-10T08:02:39.586Z"
  },
  {
  id: 2001,
