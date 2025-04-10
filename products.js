@@ -438,5 +438,97 @@ const PRODUCTS = [
  categories: [],
  createdAt: "2025-04-10T17:00:40.096Z",
  updatedAt: "2025-04-10T17:00:40.096Z"
+ },
+ {
+ id: 3003,
+ name: "Itaque nulla vel vol",
+ description: "Ea vero earum omnis ",
+ base_price: 93,
+ base_shipping_cost: 0,
+ free_shipping: true,
+ sku: "Excepteur placeat q",
+ slug: "new-product",
+ brand: "Officia eos et mole",
+ rating: 0,
+ reviews_count: 0,
+ status: "active",
+ isFeatured: false,
+ isOnSale: true,
+ requiresShipping: false,
+ requiresInventoryTracking: true,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-4.jpg"
+ ],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 69,
+ unit: "oz"
+ },
+ dimensions: {
+ length: 86,
+ width: 39,
+ height: 44,
+ unit: "mm"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T17:00:58.936Z",
+ updatedAt: "2025-04-10T17:00:58.936Z"
+ },
+ {
+ id: 3003,
+ name: "Itaque nulla vel vol",
+ description: "Ea vero earum omnis ",
+ base_price: 93,
+ base_shipping_cost: 0,
+ free_shipping: true,
+ sku: "Excepteur placeat q",
+ slug: "new-product",
+ brand: "Officia eos et mole",
+ rating: 0,
+ reviews_count: 0,
+ status: "active",
+ isFeatured: false,
+ isOnSale: true,
+ requiresShipping: false,
+ requiresInventoryTracking: true,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Belts-Style-Image-4.jpg"
+ ],
+ options: {},
+ option_images: {},
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 69,
+ unit: "oz"
+ },
+ dimensions: {
+ length: 86,
+ width: 39,
+ height: 44,
+ unit: "mm"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-10T17:01:04.650Z",
+ updatedAt: "2025-04-10T17:01:04.651Z"
  }
 ];
