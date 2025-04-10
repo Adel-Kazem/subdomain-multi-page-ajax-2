@@ -437,7 +437,7 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-10T17:19:50.304Z",
- updatedAt: "2025-04-10T17:19:50.304Z"
+ updatedAt: "2025-04-10T17:37:24.315Z"
  },
  {
  id: 3004,
@@ -571,6 +571,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-10T17:34:27.314Z",
- updatedAt: "2025-04-10T17:34:27.314Z"
+ updatedAt: "2025-04-10T17:37:24.315Z"
  }
 ];
