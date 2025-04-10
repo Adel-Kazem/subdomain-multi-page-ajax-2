@@ -314,6 +314,9 @@ const PRODUCTS = [
  ],
  "amd ryzen 9 7950X": [
  "https://images.unsplash.com/photo-1562408590-e32931084e23?w=800&auto=format&fit=crop"
+ ],
+ "intel i7-14700Hsdf": [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Screenshot_1.png"
  ]
  }
  },
@@ -393,7 +396,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-10T17:00:40.095Z"
+ updatedAt: "2025-04-10T17:53:09.603Z"
  },
  {
  id: 3004,
