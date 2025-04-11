@@ -449,7 +449,10 @@ const PRODUCTS = [
  }
  },
  variant_images: {
- "green|1-pack": "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h6.png"
+ "green|1-pack": [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h5.png",
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png"
+ ]
  },
  option_variants_stock: {
  "green|1-pack": 10,
@@ -472,6 +475,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-11T09:38:39.169Z"
+ updatedAt: "2025-04-11T10:19:08.440Z"
  }
 ];
