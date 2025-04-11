@@ -454,7 +454,10 @@ const PRODUCTS = [
  hasVariants: true,
  totalVariantStock: 50,
  lowStockThreshold: 12,
- features: {},
+ features: {
+ package: "solid",
+ taste: "nice"
+ },
  images: [
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png"
  ],
@@ -548,6 +551,6 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-11T16:24:04.511Z"
+ updatedAt: "2025-04-11T16:33:33.280Z"
  }
 ];
