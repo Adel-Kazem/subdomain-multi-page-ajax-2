@@ -397,5 +397,74 @@ const PRODUCTS = [
  ],
  createdAt: "2025-01-05T09:00:00Z",
  updatedAt: "2025-04-10T17:53:09.603Z"
+ },
+ {
+ id: 3002,
+ name: "Heets",
+ description: "Qui sit proident ex",
+ base_price: 10,
+ base_shipping_cost: 74,
+ free_shipping: false,
+ sku: "Anim recusandae Eos",
+ slug: "new-product",
+ brand: "Explicabo Optio as",
+ rating: 0,
+ reviews_count: 0,
+ status: "archived",
+ isFeatured: false,
+ isOnSale: true,
+ requiresShipping: false,
+ requiresInventoryTracking: true,
+ stock: 0,
+ hasVariants: false,
+ totalVariantStock: 0,
+ lowStockThreshold: 5,
+ features: {},
+ images: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png"
+ ],
+ options: {
+ color: [
+ "green",
+ "yellow"
+ ],
+ set: [
+ "1-pack",
+ "heeting device & 1-pack"
+ ]
+ },
+ option_images: {
+ color: {
+ green: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets4.png"
+ ],
+ yellow: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets3.png"
+ ]
+ },
+ set: {
+ "heeting device & 1-pack": [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h6.png"
+ ]
+ }
+ },
+ variant_images: {},
+ option_variants_stock: {},
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
+ weight: {
+ value: 63,
+ unit: "oz"
+ },
+ dimensions: {
+ length: 43,
+ width: 58,
+ height: 14,
+ unit: "in"
+ },
+ option_dimension_overrides: {},
+ categories: [],
+ createdAt: "2025-04-11T07:25:54.546Z",
+ updatedAt: "2025-04-11T07:25:54.546Z"
  }
 ];
