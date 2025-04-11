@@ -472,9 +472,22 @@ const PRODUCTS = [
  height: 14,
  unit: "in"
  },
- option_dimension_overrides: {},
+ option_dimension_overrides: {
+ "color:yellow": {
+ weight: {
+ value: 63,
+ unit: "oz"
+ },
+ dimensions: {
+ length: 43,
+ width: 58,
+ height: 14,
+ unit: "in"
+ }
+ }
+ },
  categories: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-11T10:19:08.440Z"
+ updatedAt: "2025-04-11T11:29:32.645Z"
  }
 ];
