@@ -416,7 +416,7 @@ const PRODUCTS = [
  requiresShipping: false,
  requiresInventoryTracking: true,
  stock: 0,
- hasVariants: false,
+ hasVariants: true,
  totalVariantStock: 0,
  lowStockThreshold: 10,
  features: {},
@@ -449,7 +449,12 @@ const PRODUCTS = [
  }
  },
  variant_images: {},
- option_variants_stock: {},
+ option_variants_stock: {
+ "green|1-pack": 0,
+ "green|heeting device & 1-pack": 0,
+ "yellow|1-pack": 0,
+ "yellow|heeting device & 1-pack": 0
+ },
  option_price_adjustments: {},
  option_shipping_adjustments: {},
  weight: {
@@ -465,6 +470,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-11T08:58:47.542Z"
+ updatedAt: "2025-04-11T09:03:43.422Z"
  }
 ];
