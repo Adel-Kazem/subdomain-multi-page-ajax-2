@@ -511,49 +511,5 @@ const PRODUCTS = [
  categories: [],
  createdAt: "2025-04-10T18:00:29.539Z",
  updatedAt: "2025-04-10T18:00:29.539Z"
- },
- {
- id: 3007,
- name: "New Product",
- description: "",
- base_price: 0,
- base_shipping_cost: 0,
- free_shipping: false,
- sku: "PRD-3007",
- slug: "new-product",
- brand: "",
- rating: 0,
- reviews_count: 0,
- status: "active",
- isFeatured: false,
- isOnSale: false,
- requiresShipping: true,
- requiresInventoryTracking: true,
- stock: 0,
- hasVariants: false,
- totalVariantStock: 0,
- lowStockThreshold: 5,
- features: {},
- images: [],
- options: {},
- option_images: {},
- variant_images: {},
- option_variants_stock: {},
- option_price_adjustments: {},
- option_shipping_adjustments: {},
- weight: {
- value: 0,
- unit: "kg"
- },
- dimensions: {
- length: 0,
- width: 0,
- height: 0,
- unit: "cm"
- },
- option_dimension_overrides: {},
- categories: [],
- createdAt: "2025-04-11T07:22:37.433Z",
- updatedAt: "2025-04-11T07:22:37.433Z"
  }
 ];
