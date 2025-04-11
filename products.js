@@ -417,8 +417,8 @@ const PRODUCTS = [
  requiresInventoryTracking: true,
  stock: 0,
  hasVariants: true,
- totalVariantStock: 0,
- lowStockThreshold: 10,
+ totalVariantStock: 50,
+ lowStockThreshold: 12,
  features: {},
  images: [
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png"
@@ -450,10 +450,10 @@ const PRODUCTS = [
  },
  variant_images: {},
  option_variants_stock: {
- "green|1-pack": 0,
- "green|heeting device & 1-pack": 0,
- "yellow|1-pack": 0,
- "yellow|heeting device & 1-pack": 0
+ "green|1-pack": 10,
+ "green|heeting device & 1-pack": 14,
+ "yellow|1-pack": 13,
+ "yellow|heeting device & 1-pack": 13
  },
  option_price_adjustments: {},
  option_shipping_adjustments: {},
@@ -470,6 +470,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-11T09:03:43.422Z"
+ updatedAt: "2025-04-11T09:04:11.269Z"
  }
 ];
