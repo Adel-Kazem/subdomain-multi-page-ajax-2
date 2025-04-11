@@ -448,7 +448,9 @@ const PRODUCTS = [
  ]
  }
  },
- variant_images: {},
+ variant_images: {
+ "green|1-pack": "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h6.png"
+ },
  option_variants_stock: {
  "green|1-pack": 10,
  "green|heeting device & 1-pack": 14,
@@ -470,6 +472,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-11T09:04:11.269Z"
+ updatedAt: "2025-04-11T09:38:39.169Z"
  }
 ];
