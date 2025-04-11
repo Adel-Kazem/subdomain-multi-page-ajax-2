@@ -584,14 +584,8 @@ const PRODUCTS = [
  },
  variant_images: {},
  option_variants_stock: {},
- option_price_adjustments: {
- "newOption1:additional device": 50,
- "package:additional device": 50
- },
- option_shipping_adjustments: {
- "newOption1:additional device": 10,
- "package:additional device": 10
- },
+ option_price_adjustments: {},
+ option_shipping_adjustments: {},
  weight: {
  value: 79,
  unit: "kg"
@@ -605,6 +599,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-11T06:52:05.234Z",
- updatedAt: "2025-04-11T06:52:05.234Z"
+ updatedAt: "2025-04-11T06:55:28.546Z"
  }
 ];
