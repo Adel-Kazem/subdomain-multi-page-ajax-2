@@ -513,20 +513,20 @@ const PRODUCTS = [
  updatedAt: "2025-04-10T18:00:29.539Z"
  },
  {
- id: 3006,
- name: "Heets",
- description: "Iste eaque molestiae",
- base_price: 10,
+ id: 3007,
+ name: "New Product",
+ description: "",
+ base_price: 0,
  base_shipping_cost: 0,
- free_shipping: true,
- sku: "Cupidatat vero nobis",
+ free_shipping: false,
+ sku: "PRD-3007",
  slug: "new-product",
- brand: "Laudantium non occa",
+ brand: "",
  rating: 0,
  reviews_count: 0,
- status: "draft",
- isFeatured: true,
- isOnSale: true,
+ status: "active",
+ isFeatured: false,
+ isOnSale: false,
  requiresShipping: true,
  requiresInventoryTracking: true,
  stock: 0,
@@ -534,71 +534,26 @@ const PRODUCTS = [
  totalVariantStock: 0,
  lowStockThreshold: 5,
  features: {},
- images: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png"
- ],
- options: {
- color: [
- "red",
- "green",
- "yellow"
- ],
- package: [
- "1 pack",
- "additional device"
- ]
- },
- option_images: {
- newOption0: {
- red: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets2.png"
- ],
- green: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets4.png"
- ],
- "New value": [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets3.png"
- ]
- },
- newOption1: {
- "additional device": [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h6.png"
- ]
- },
- color: {
- red: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets2.png"
- ],
- green: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets4.png"
- ],
- "New value": [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets3.png"
- ]
- },
- package: {
- "additional device": [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h6.png"
- ]
- }
- },
+ images: [],
+ options: {},
+ option_images: {},
  variant_images: {},
  option_variants_stock: {},
  option_price_adjustments: {},
  option_shipping_adjustments: {},
  weight: {
- value: 79,
+ value: 0,
  unit: "kg"
  },
  dimensions: {
- length: 30,
- width: 65,
- height: 13,
+ length: 0,
+ width: 0,
+ height: 0,
  unit: "cm"
  },
  option_dimension_overrides: {},
  categories: [],
- createdAt: "2025-04-11T06:52:05.234Z",
- updatedAt: "2025-04-11T06:55:28.546Z"
+ createdAt: "2025-04-11T07:22:37.433Z",
+ updatedAt: "2025-04-11T07:22:37.433Z"
  }
 ];
