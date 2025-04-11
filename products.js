@@ -418,7 +418,7 @@ const PRODUCTS = [
  stock: 0,
  hasVariants: false,
  totalVariantStock: 0,
- lowStockThreshold: 5,
+ lowStockThreshold: 10,
  features: {},
  images: [
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png"
@@ -465,6 +465,6 @@ const PRODUCTS = [
  option_dimension_overrides: {},
  categories: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-11T07:25:54.546Z"
+ updatedAt: "2025-04-11T07:46:17.253Z"
  }
 ];
