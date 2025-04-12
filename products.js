@@ -416,7 +416,9 @@ const PRODUCTS = [
  categories: [
  101,
  105,
- 110
+ 110,
+ 1,
+ 2
  ],
  upselling: [
  3005,
@@ -431,7 +433,11 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-02T11:45:00Z"
+ updatedAt: "2025-04-12T19:47:58.287Z",
+ _categoryChanges: {
+ added: [],
+ removed: []
+ }
  },
  {
  id: 3002,
@@ -558,7 +564,7 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-12T19:37:31.771Z",
+ updatedAt: "2025-04-12T19:47:58.288Z",
  categoryIds: [
  1,
  2
