@@ -552,15 +552,17 @@ const PRODUCTS = [
  }
  },
  categories: [
- 1
+ 1,
+ 2
  ],
  upselling: [],
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-12T18:52:15.031Z",
+ updatedAt: "2025-04-12T19:14:41.887Z",
  categoryIds: [
- 1
+ 1,
+ 2
  ]
  }
 ];
