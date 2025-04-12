@@ -445,7 +445,7 @@ const PRODUCTS = [
  brand: "Explicabo Optio as",
  rating: 0,
  reviews_count: 0,
- status: "archived",
+ status: "active",
  isFeatured: false,
  isOnSale: true,
  requiresShipping: false,
@@ -459,7 +459,8 @@ const PRODUCTS = [
  taste: "nice"
  },
  images: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png"
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png",
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Harrington-Jacket-650-Ashley-Weston-Mens-Wardrobe-Essentials-3.jpg"
  ],
  options: {
  color: [
@@ -483,6 +484,9 @@ const PRODUCTS = [
  set: {
  "heeting device & 1-pack": [
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h6.png"
+ ],
+ "1-pack": [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets4.png"
  ]
  }
  },
@@ -490,7 +494,8 @@ const PRODUCTS = [
  "green|1-pack": [
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h5.png",
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png"
- ]
+ ],
+ "green|heeting device & 1-pack": "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshley.Weston.jpg"
  },
  option_variants_stock: {
  "green|1-pack": 10,
@@ -551,6 +556,6 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-11T16:33:33.280Z"
+ updatedAt: "2025-04-12T07:02:06.519Z"
  }
 ];
