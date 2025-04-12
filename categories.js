@@ -1,1 +1,21 @@
-const CATEGORIES = [];
+const CATEGORIES = [
+ {
+  id: 1,
+  name: "Modi perspiciatis e",
+  slug: "Ad consequuntur veli",
+  description: "Laborum Voluptatibu",
+  imageUrl: "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/category_images/perfect images.png",
+  featured: true,
+  parent_id: null,
+  active: true,
+  display_order: 76,
+  productIds: [
+   1001,
+   2001,
+   3001,
+   3002
+  ],
+  created_at: "2025-04-12T15:27:50.077Z",
+  updated_at: "2025-04-12T15:27:50.077Z"
+ }
+];
