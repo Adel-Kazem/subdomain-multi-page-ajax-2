@@ -559,7 +559,7 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-12T19:14:41.887Z",
+ updatedAt: "2025-04-12T19:30:42.337Z",
  categoryIds: [
  1,
  2
