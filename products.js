@@ -557,15 +557,12 @@ const PRODUCTS = [
  }
  }
  },
- categories: [
- 2,
- 1
- ],
+ categories: [],
  upselling: [],
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-13T08:27:02.409Z",
+ updatedAt: "2025-04-13T08:27:19.350Z",
  _categoryChanges: {
  added: [],
  removed: []
