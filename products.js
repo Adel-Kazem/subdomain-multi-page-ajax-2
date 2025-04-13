@@ -441,7 +441,7 @@ const PRODUCTS = [
  },
  {
  id: 3002,
- name: "Heets",
+ name: "Heets2",
  description: "Qui sit proident ex",
  base_price: 10,
  base_shipping_cost: 74,
@@ -562,7 +562,7 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-13T08:33:56.790Z",
+ updatedAt: "2025-04-13T08:56:56.923Z",
  _categoryChanges: {
  added: [],
  removed: []
