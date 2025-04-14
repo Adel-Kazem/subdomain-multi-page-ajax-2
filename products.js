@@ -349,7 +349,8 @@ const PRODUCTS = [
  option_price_adjustments: {
  processor: {
  "intel i9-14900HX": 300,
- "amd ryzen 9 7950X": 250
+ "amd ryzen 9 7950X": 250,
+ aaaaaaaaaaaaaaaaaa: 99
  },
  graphics: {
  "nvidia rtx 4080 12GB": 300,
@@ -377,6 +378,9 @@ const PRODUCTS = [
  display: {
  "17.3\" FHD 144Hz": 10,
  "17.3\" QHD 240Hz": 10
+ },
+ processor: {
+ aaaaaaaaaaaaaaaaaa: 99
  }
  },
  weight: {
@@ -415,6 +419,20 @@ const PRODUCTS = [
  unit: "cm"
  }
  }
+ },
+ processor: {
+ aaaaaaaaaaaaaaaaaa: {
+ weight: {
+ value: 99.2,
+ unit: "kg"
+ },
+ dimensions: {
+ length: 99,
+ width: 99,
+ height: 99,
+ unit: "cm"
+ }
+ }
  }
  },
  categories: [
@@ -435,7 +453,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-14T17:55:50.778Z"
+ updatedAt: "2025-04-14T17:56:33.055Z"
  },
  {
  id: 3002,
