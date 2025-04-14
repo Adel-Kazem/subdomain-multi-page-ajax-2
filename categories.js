@@ -9,9 +9,11 @@ const CATEGORIES = [
  parent_id: null,
  active: true,
  display_order: 76,
- productIds: [],
+ productIds: [
+ 3001
+ ],
  created_at: "2025-04-12T15:27:50.077Z",
- updated_at: "2025-04-14T14:14:14.179Z"
+ updated_at: "2025-04-14T17:58:43.443Z"
  },
  {
  id: 2,
