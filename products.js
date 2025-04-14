@@ -551,11 +551,13 @@ const PRODUCTS = [
  }
  }
  },
- categories: [],
+ categories: [
+ 1000
+ ],
  upselling: [],
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-14T14:11:11.781Z"
+ updatedAt: "2025-04-14T14:14:12.498Z"
  }
 ];
