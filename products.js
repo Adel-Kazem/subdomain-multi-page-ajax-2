@@ -1,7 +1,7 @@
 const PRODUCTS = [
  {
  id: 1001,
- name: "The Complete Guide to Modern Web Development",
+ name: "The Complete Guide to Modern Web Developmentdddd",
  description: "Comprehensive e-book covering all aspects of modern web development including HTML5, CSS3, JavaScript, React, Node.js, and best practices for responsive design and performance optimization.",
  base_price: 24.99,
  base_shipping_cost: 0,
@@ -69,11 +69,11 @@ const PRODUCTS = [
  1003
  ],
  createdAt: "2025-01-10T13:20:00Z",
- updatedAt: "2025-03-25T09:45:00Z"
+ updatedAt: "2025-04-14T18:46:50.510Z"
  },
  {
  id: 2001,
- name: "SoundWave Portable Bluetooth Speaker",
+ name: "SoundWave Portable Bluetooth Speakerddf ",
  description: "Premium portable speaker with rich sound, 24-hour battery life, and waterproof design. Perfect for outdoor adventures or home use with seamless Bluetooth connectivity and built-in microphone for calls.",
  base_price: 79.99,
  base_shipping_cost: 5.99,
@@ -217,251 +217,7 @@ const PRODUCTS = [
  2003
  ],
  createdAt: "2025-01-15T11:30:00Z",
- updatedAt: "2025-03-28T14:15:00Z"
- },
- {
- id: 3001,
- name: "this is a test",
- description: "testing the description",
- base_price: 9999.99,
- base_shipping_cost: 9.99,
- free_shipping: false,
- sku: "testing-skue",
- slug: "nexusforge-pro-gaming-laptop",
- brand: "Nikeeee",
- rating: 4.9,
- reviews_count: 324,
- status: "active",
- isFeatured: true,
- isOnSale: true,
- requiresShipping: true,
- requiresInventoryTracking: true,
- stock: 0,
- hasVariants: true,
- totalVariantStock: 1193,
- lowStockThreshold: 5,
- features: {
- chassis: "Aircraft-grade aluminum",
- cooling: "Advanced dual-fan cooling system with copper heat pipes",
- keyboard: "Per-key RGB mechanical keyboard",
- audio: "3D surround sound with AI noise cancellation",
- battery: "Up to 6 hours gaming, 10 hours productivity",
- webcam: "1080p with privacy shutter",
- connectivity: "Wi-Fi 6E, Bluetooth 5.3, Thunderbolt 4",
- warranty: "3-year premium support"
- },
- images: [
- "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1482235225574-c37692835cf3?w=800&auto=format&fit=crop",
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Allen-Edmonds-Carlyle-Plain-Toe-Oxfords.jpg"
- ],
- options: {
- processor: [
- "aaaaaaaaaaaaaaaaaa",
- "intel i9-14900HX",
- "amd ryzen 9 7950X"
- ],
- graphics: [
- "nvidia rtx 4070 8GB",
- "nvidia rtx 4080 12GB",
- "nvidia rtx 4090 16GB"
- ],
- ram: [
- "16GB DDR5",
- "32GB DDR5",
- "64GB DDR5"
- ],
- storage: [
- "512GB NVMe",
- "1TB NVMe",
- "2TB NVMe",
- "4TB NVMe"
- ],
- display: [
- "15.6\" FHD 144Hz",
- "15.6\" QHD 240Hz",
- "17.3\" FHD 144Hz",
- "17.3\" QHD 240Hz"
- ],
- os: [
- "windows 11 home",
- "windows 11 pro"
- ]
- },
- option_images: {
- processor: {
- "intel i7-14700H": [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Screenshot_1.png"
- ],
- "intel i9-14900HX": [
- "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&auto=format&fit=crop"
- ],
- "amd ryzen 9 7950X": [
- "https://images.unsplash.com/photo-1562408590-e32931084e23?w=800&auto=format&fit=crop"
- ],
- aaaaaaaaaaaaaaaaaa: [
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Harrington-Jacket-650-Ashley-Weston-Mens-Wardrobe-Essentials-3.jpg"
- ]
- },
- graphics: {
- "nvidia rtx 4080 12GB": [
- "https://images.unsplash.com/photo-1555618568-bdf0a992c512?w=800&auto=format&fit=crop"
- ],
- "nvidia rtx 4090 16GB": [
- "https://images.unsplash.com/photo-1551643556-0e32e07d70dd?w=800&auto=format&fit=crop"
- ]
- },
- display: {
- "15.6\" QHD 240Hz": [
- "https://images.unsplash.com/photo-1551883040-0256b70c6ee9?w=800&auto=format&fit=crop"
- ],
- "17.3\" QHD 240Hz": [
- "https://images.unsplash.com/photo-1533740566848-5f7d3e04e3d7?w=800&auto=format&fit=crop"
- ]
- }
- },
- variant_images: {
- "intel i9-14900HX|nvidia rtx 4090 16GB|17.3\" QHD 240Hz": [
- "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop",
- "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=800&auto=format&fit=crop"
- ],
- "amd ryzen 9 7950X|nvidia rtx 4080 12GB|15.6\" QHD 240Hz": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=800&auto=format&fit=crop",
- "amd ryzen 9 7950X|nvidia rtx 4080 12GB|32GB DDR5|1TB NVMe|15.6\" QHD 240Hz|windows 11 home": "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/h6.png"
- },
- option_variants_stock: {
- "intel i7-14700H|nvidia rtx 4070 8GB|16GB DDR5|512GB NVMe|15.6\" FHD 144Hz|windows 11 home": 15,
- "intel i7-14700H|nvidia rtx 4070 8GB|16GB DDR5|1TB NVMe|15.6\" FHD 144Hz|windows 11 home": 12,
- "intel i7-14700H|nvidia rtx 4070 8GB|32GB DDR5|1TB NVMe|15.6\" FHD 144Hz|windows 11 home": 10,
- "intel i7-14700H|nvidia rtx 4070 8GB|32GB DDR5|1TB NVMe|15.6\" QHD 240Hz|windows 11 home": 8,
- "intel i9-14900HX|nvidia rtx 4080 12GB|32GB DDR5|1TB NVMe|15.6\" QHD 240Hz|windows 11 home": 10,
- "intel i9-14900HX|nvidia rtx 4080 12GB|32GB DDR5|2TB NVMe|15.6\" QHD 240Hz|windows 11 home": 8,
- "intel i9-14900HX|nvidia rtx 4080 12GB|32GB DDR5|2TB NVMe|15.6\" QHD 240Hz|windows 11 pro": 6,
- "intel i9-14900HX|nvidia rtx 4080 12GB|32GB DDR5|2TB NVMe|17.3\" QHD 240Hz|windows 11 pro": 5,
- "intel i9-14900HX|nvidia rtx 4090 16GB|32GB DDR5|2TB NVMe|17.3\" QHD 240Hz|windows 11 pro": 7,
- "intel i9-14900HX|nvidia rtx 4090 16GB|64GB DDR5|2TB NVMe|17.3\" QHD 240Hz|windows 11 pro": 4,
- "intel i9-14900HX|nvidia rtx 4090 16GB|64GB DDR5|4TB NVMe|17.3\" QHD 240Hz|windows 11 pro": 2,
- "amd ryzen 9 7950X|nvidia rtx 4070 8GB|32GB DDR5|1TB NVMe|15.6\" FHD 144Hz|windows 11 home": 99,
- "amd ryzen 9 7950X|nvidia rtx 4080 12GB|32GB DDR5|1TB NVMe|15.6\" QHD 240Hz|windows 11 home": 999,
- "amd ryzen 9 7950X|nvidia rtx 4080 12GB|32GB DDR5|2TB NVMe|15.6\" QHD 240Hz|windows 11 pro": 5,
- "amd ryzen 9 7950X|nvidia rtx 4090 16GB|64GB DDR5|2TB NVMe|17.3\" QHD 240Hz|windows 11 pro": 3
- },
- option_price_adjustments: {
- processor: {
- "intel i9-14900HX": 300,
- "amd ryzen 9 7950X": 250,
- aaaaaaaaaaaaaaaaaa: 99
- },
- graphics: {
- "nvidia rtx 4080 12GB": 300,
- "nvidia rtx 4090 16GB": 800
- },
- ram: {
- "32GB DDR5": 150,
- "64GB DDR5": 400
- },
- storage: {
- "1TB NVMe": 100,
- "2TB NVMe": 250,
- "4TB NVMe": 500
- },
- display: {
- "15.6\" QHD 240Hz": 200,
- "17.3\" FHD 144Hz": 150,
- "17.3\" QHD 240Hz": 350
- },
- os: {
- "windows 11 pro": 100
- }
- },
- option_shipping_adjustments: {
- display: {
- "17.3\" FHD 144Hz": 10,
- "17.3\" QHD 240Hz": 10
- },
- processor: {
- aaaaaaaaaaaaaaaaaa: 99
- }
- },
- weight: {
- value: 99.2,
- unit: "kg"
- },
- dimensions: {
- length: 99,
- width: 99,
- height: 99,
- unit: "cm"
- },
- option_dimension_overrides: {
- display: {
- "17.3\" FHD 144Hz": {
- weight: {
- value: 2.5,
- unit: "kg"
- },
- dimensions: {
- length: 40,
- width: 28,
- height: 2.2,
- unit: "cm"
- }
- },
- "17.3\" QHD 240Hz": {
- weight: {
- value: 2.6,
- unit: "kg"
- },
- dimensions: {
- length: 40,
- width: 28,
- height: 2.3,
- unit: "cm"
- }
- }
- },
- processor: {
- aaaaaaaaaaaaaaaaaa: {
- weight: {
- value: 99.2,
- unit: "kg"
- },
- dimensions: {
- length: 99,
- width: 99,
- height: 99,
- unit: "cm"
- }
- }
- }
- },
- categories: [
- 101,
- 105,
- 110,
- 1
- ],
- upselling: [
- 3005,
- 3010
- ],
- crossSelling: [
- 3101,
- 3201
- ],
- relatedProducts: [
- 3002,
- 3003
- ],
- createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-14T17:58:41.575Z",
- _categoryChanges: {
- added: [
- 1
- ],
- removed: []
- }
+ updatedAt: "2025-04-14T18:46:50.511Z"
  },
  {
  id: 3002,
