@@ -441,8 +441,8 @@ const PRODUCTS = [
  },
  {
  id: 3002,
- name: "Heets2sdfsdf",
- description: "Qui sit proident ex",
+ name: "sss1 s 11",
+ description: "Qui sit proident exasdf",
  base_price: 10,
  base_shipping_cost: 74,
  free_shipping: false,
@@ -563,7 +563,7 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-13T09:34:21.352Z",
+ updatedAt: "2025-04-14T10:30:11.974Z",
  _categoryChanges: {
  added: [],
  removed: []
