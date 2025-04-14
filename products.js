@@ -433,7 +433,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-12T19:47:58.287Z",
+ updatedAt: "2025-04-14T10:30:42.649Z",
  _categoryChanges: {
  added: [],
  removed: []
@@ -467,7 +467,8 @@ const PRODUCTS = [
  images: [
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/heets1.png",
  "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Harrington-Jacket-650-Ashley-Weston-Mens-Wardrobe-Essentials-3.jpg",
- "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/belt-wolf-of-wallstreet-leonardo-di-caprio-v0-qd479m2ochjb1.webp"
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/belt-wolf-of-wallstreet-leonardo-di-caprio-v0-qd479m2ochjb1.webp",
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/HarringtonJacketAshleyWeston.jpg"
  ],
  options: {
  color: [
@@ -563,7 +564,7 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-14T10:30:11.974Z",
+ updatedAt: "2025-04-14T10:30:42.650Z",
  _categoryChanges: {
  added: [],
  removed: []
