@@ -221,8 +221,8 @@ const PRODUCTS = [
  },
  {
  id: 3001,
- name: "22sss22",
- description: "Professional-grade gaming laptop with customizable configuration. Built for esports professionals and hardcore gamers with cutting-edge performance, advanced cooling system, and premium display options.",
+ name: "22sss22fsfsf",
+ description: "33ee33",
  base_price: 1499.99,
  base_shipping_cost: 29.99,
  free_shipping: false,
@@ -433,7 +433,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-14T10:31:10.017Z",
+ updatedAt: "2025-04-14T10:33:59.348Z",
  _categoryChanges: {
  added: [],
  removed: []
