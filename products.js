@@ -73,7 +73,7 @@ const PRODUCTS = [
  },
  {
  id: 2001,
- name: "SoundWave Portable Bluetooth Speaker",
+ name: "3ss33",
  description: "Premium portable speaker with rich sound, 24-hour battery life, and waterproof design. Perfect for outdoor adventures or home use with seamless Bluetooth connectivity and built-in microphone for calls.",
  base_price: 79.99,
  base_shipping_cost: 5.99,
@@ -217,11 +217,11 @@ const PRODUCTS = [
  2003
  ],
  createdAt: "2025-01-15T11:30:00Z",
- updatedAt: "2025-03-28T14:15:00Z"
+ updatedAt: "2025-04-14T10:31:10.016Z"
  },
  {
  id: 3001,
- name: "NexusForge Pro Gaming Laptop",
+ name: "22sss22",
  description: "Professional-grade gaming laptop with customizable configuration. Built for esports professionals and hardcore gamers with cutting-edge performance, advanced cooling system, and premium display options.",
  base_price: 1499.99,
  base_shipping_cost: 29.99,
@@ -433,7 +433,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-14T10:30:42.649Z",
+ updatedAt: "2025-04-14T10:31:10.017Z",
  _categoryChanges: {
  added: [],
  removed: []
@@ -564,7 +564,7 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-14T10:30:42.650Z",
+ updatedAt: "2025-04-14T10:31:10.019Z",
  _categoryChanges: {
  added: [],
  removed: []
