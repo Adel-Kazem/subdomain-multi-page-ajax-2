@@ -464,7 +464,7 @@ const PRODUCTS = [
  ],
  options: {
  color: [
- "green",
+ "sadfsdf",
  "yellow"
  ],
  set: [
@@ -558,7 +558,7 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-14T15:49:49.920Z",
+ updatedAt: "2025-04-14T16:00:46.600Z",
  _categoryChanges: {
  added: [
  1000
