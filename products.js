@@ -558,6 +558,12 @@ const PRODUCTS = [
  crossSelling: [],
  relatedProducts: [],
  createdAt: "2025-04-11T07:25:54.546Z",
- updatedAt: "2025-04-14T14:14:12.498Z"
+ updatedAt: "2025-04-14T15:49:49.920Z",
+ _categoryChanges: {
+ added: [
+ 1000
+ ],
+ removed: []
+ }
  }
 ];
