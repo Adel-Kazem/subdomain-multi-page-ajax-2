@@ -259,7 +259,7 @@ const PRODUCTS = [
  ],
  options: {
  processor: [
- "intel i7-14700H",
+ "aaaaaaaaaaaaaaaaaa",
  "intel i9-14900HX",
  "amd ryzen 9 7950X"
  ],
@@ -432,7 +432,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-14T17:53:21.928Z"
+ updatedAt: "2025-04-14T17:55:17.655Z"
  },
  {
  id: 3002,
