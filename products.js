@@ -217,7 +217,7 @@ const PRODUCTS = [
  2003
  ],
  createdAt: "2025-01-15T11:30:00Z",
- updatedAt: "2025-04-14T10:31:10.016Z"
+ updatedAt: "2025-04-14T11:04:22.857Z"
  },
  {
  id: 3001,
@@ -433,7 +433,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-14T11:03:39.247Z",
+ updatedAt: "2025-04-14T11:04:22.857Z",
  _categoryChanges: {
  added: [],
  removed: []
