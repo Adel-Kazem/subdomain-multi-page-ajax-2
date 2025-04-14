@@ -221,19 +221,19 @@ const PRODUCTS = [
  },
  {
  id: 3001,
- name: "NexusForge Pro Gaming Laptop",
- description: "Professional-grade gaming laptop with customizable configuration. Built for esports professionals and hardcore gamers with cutting-edge performance, advanced cooling system, and premium display options.",
- base_price: 1499.99,
- base_shipping_cost: 29.99,
+ name: "this is a test",
+ description: "testing the description",
+ base_price: 9999.99,
+ base_shipping_cost: 9.99,
  free_shipping: false,
- sku: "COMP-LAPTOP-3001",
+ sku: "testing-skue",
  slug: "nexusforge-pro-gaming-laptop",
- brand: "NexusForge",
+ brand: "Nikeeee",
  rating: 4.9,
  reviews_count: 324,
  status: "active",
  isFeatured: true,
- isOnSale: false,
+ isOnSale: true,
  requiresShipping: true,
  requiresInventoryTracking: true,
  stock: 0,
@@ -377,13 +377,13 @@ const PRODUCTS = [
  }
  },
  weight: {
- value: 2.2,
+ value: 99.2,
  unit: "kg"
  },
  dimensions: {
- length: 36,
- width: 26,
- height: 2,
+ length: 99,
+ width: 99,
+ height: 99,
  unit: "cm"
  },
  option_dimension_overrides: {
@@ -432,7 +432,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-14T17:22:13.715Z"
+ updatedAt: "2025-04-14T17:53:21.928Z"
  },
  {
  id: 3002,
