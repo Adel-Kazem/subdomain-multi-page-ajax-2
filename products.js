@@ -300,6 +300,9 @@ const PRODUCTS = [
  ],
  "amd ryzen 9 7950X": [
  "https://images.unsplash.com/photo-1562408590-e32931084e23?w=800&auto=format&fit=crop"
+ ],
+ aaaaaaaaaaaaaaaaaa: [
+ "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Harrington-Jacket-650-Ashley-Weston-Mens-Wardrobe-Essentials-3.jpg"
  ]
  },
  graphics: {
@@ -432,7 +435,7 @@ const PRODUCTS = [
  3003
  ],
  createdAt: "2025-01-05T09:00:00Z",
- updatedAt: "2025-04-14T17:55:17.655Z"
+ updatedAt: "2025-04-14T17:55:50.778Z"
  },
  {
  id: 3002,
