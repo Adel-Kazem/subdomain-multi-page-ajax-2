@@ -1,5 +1,5 @@
 const PRODUCTS = [
-  {
+ {
     id: 1001,
     name: "The Complete Guide to Modern Web Developmentdddd",
     description: "Comprehensive e-book covering all aspects of modern web development including HTML5, CSS3, JavaScript, React, Node.js, and best practices for responsive design and performance optimization.",
@@ -68,10 +68,10 @@ const PRODUCTS = [
     ],
     createdAt: "2025-01-10T13:20:00Z",
     updatedAt: "2025-04-15T11:19:55.707Z"
-  },
-  {
+ },
+ {
     id: 2001,
-    name: "SoundWave Portable Bluetooth Speakerddf ",
+    name: "SoundWave Portable Bluetooth Speakerddf fgfdg",
     description: "Premium portable speaker with rich sound, 24-hour battery life, and waterproof design. Perfect for outdoor adventures or home use with seamless Bluetooth connectivity and built-in microphone for calls.",
     base_price: 79.99,
     base_shipping_cost: 5.99,
@@ -213,9 +213,9 @@ const PRODUCTS = [
       2003
     ],
     createdAt: "2025-01-15T11:30:00Z",
-    updatedAt: "2025-04-15T11:19:55.707Z"
-  },
-  {
+    updatedAt: "2025-04-15T11:31:41.826Z"
+ },
+ {
     id: 3002,
     name: "this is the ex to the zee",
     description: "Qui sit proident ex",
@@ -341,8 +341,8 @@ const PRODUCTS = [
     relatedProducts: [],
     createdAt: "2025-04-11T07:25:54.546Z",
     updatedAt: "2025-04-15T11:19:55.707Z"
-  },
-  {
+ },
+ {
     id: 9000,
     name: "zzzzzzzzzz2",
     description: "Ex nobis aute cupida",
@@ -390,5 +390,5 @@ const PRODUCTS = [
     ],
     createdAt: "2025-04-15T11:22:32.939Z",
     updatedAt: "2025-04-15T11:23:38.511Z"
-  }
+ }
 ];
