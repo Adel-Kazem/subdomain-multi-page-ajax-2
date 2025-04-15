@@ -40,10 +40,11 @@ const CATEGORIES = [
     active: false,
     display_order: 12,
     productIds: [
-      3002
+      3002,
+      9000
     ],
     created_at: "2025-04-14T14:13:45.390Z",
-    updated_at: "2025-04-15T11:21:53.925Z"
+    updated_at: "2025-04-15T11:23:38.516Z"
   },
   {
     id: 1002,
