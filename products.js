@@ -144,7 +144,8 @@ const PRODUCTS = [
     },
     variant_images: {
       "blue|sport": "https://images.unsplash.com/photo-1522273500616-6b4757e4c184?w=800&auto=format&fit=crop",
-      "red|premium": "https://images.unsplash.com/photo-1610156440283-a6f09e654e0d?w=800&auto=format&fit=crop"
+      "red|premium": "https://images.unsplash.com/photo-1610156440283-a6f09e654e0d?w=800&auto=format&fit=crop",
+      "black|premium": "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/Allen-Edmonds-Bombay-Dress-Belt.jpg"
     },
     option_variants_stock: {
       "black|standard": 30,
@@ -213,7 +214,7 @@ const PRODUCTS = [
       2003
     ],
     createdAt: "2025-01-15T11:30:00Z",
-    updatedAt: "2025-04-15T11:57:14.635Z"
+    updatedAt: "2025-04-15T14:06:36.455Z"
  },
  {
     id: 3002,
