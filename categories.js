@@ -41,6 +41,20 @@ const CATEGORIES = [
  3002
  ],
  created_at: "2025-04-14T14:13:45.390Z",
- updated_at: "2025-04-15T07:16:51.211Z"
+ updated_at: "2025-04-14T18:46:56.038Z"
+ },
+ {
+ id: 1001,
+ name: "New Category ",
+ slug: "new-category",
+ description: "new category!",
+ imageUrl: "",
+ featured: false,
+ parent_id: null,
+ active: true,
+ display_order: 13,
+ productIds: [],
+ created_at: "2025-04-15T07:16:54.827Z",
+ updated_at: "2025-04-15T07:16:54.827Z"
  }
 ];
