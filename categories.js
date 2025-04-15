@@ -67,12 +67,12 @@ const CATEGORIES = [
     description: "3333",
     imageUrl: "",
     featured: false,
-    parent_id: null,
+    parent_id: 1003,
     active: true,
     display_order: 14,
     productIds: [],
     created_at: "2025-04-15T07:36:01.883Z",
-    updated_at: "2025-04-15T07:36:01.883Z"
+    updated_at: "2025-04-15T11:12:05.935Z"
   },
   {
     id: 1003,
