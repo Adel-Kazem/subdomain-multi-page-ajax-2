@@ -213,7 +213,7 @@ const PRODUCTS = [
       2003
     ],
     createdAt: "2025-01-15T11:30:00Z",
-    updatedAt: "2025-04-15T11:32:43.774Z"
+    updatedAt: "2025-04-15T11:41:17.902Z"
  },
  {
     id: 3002,
