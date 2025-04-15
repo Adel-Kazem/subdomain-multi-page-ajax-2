@@ -52,8 +52,7 @@ const PRODUCTS = [
     },
     option_dimension_overrides: {},
     categories: [
-      1003,
-      1001
+      1003
     ],
     upselling: [
       1005,
@@ -68,7 +67,7 @@ const PRODUCTS = [
       1003
     ],
     createdAt: "2025-01-10T13:20:00Z",
-    updatedAt: "2025-04-15T11:19:24.913Z"
+    updatedAt: "2025-04-15T11:19:55.707Z"
   },
   {
     id: 2001,
@@ -199,7 +198,6 @@ const PRODUCTS = [
       }
     },
     categories: [
-      1001,
       1003
     ],
     upselling: [
@@ -215,7 +213,7 @@ const PRODUCTS = [
       2003
     ],
     createdAt: "2025-01-15T11:30:00Z",
-    updatedAt: "2025-04-15T11:12:08.336Z"
+    updatedAt: "2025-04-15T11:19:55.707Z"
   },
   {
     id: 3002,
@@ -336,13 +334,12 @@ const PRODUCTS = [
       }
     },
     categories: [
-      1000,
-      1001
+      1000
     ],
     upselling: [],
     crossSelling: [],
     relatedProducts: [],
     createdAt: "2025-04-11T07:25:54.546Z",
-    updatedAt: "2025-04-15T11:11:00.580Z"
+    updatedAt: "2025-04-15T11:19:55.707Z"
   }
 ];
