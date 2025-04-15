@@ -29,7 +29,7 @@ const CATEGORIES = [
  },
  {
  id: 1000,
- name: "test 2",
+ name: "test 2 sadf",
  slug: "new-category",
  description: "test 2 test 2",
  imageUrl: "",
@@ -41,6 +41,6 @@ const CATEGORIES = [
  3002
  ],
  created_at: "2025-04-14T14:13:45.390Z",
- updated_at: "2025-04-14T18:46:56.038Z"
+ updated_at: "2025-04-15T07:16:51.211Z"
  }
 ];
