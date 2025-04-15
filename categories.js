@@ -35,13 +35,13 @@ const CATEGORIES = [
  imageUrl: "",
  featured: false,
  parent_id: null,
- active: true,
+ active: false,
  display_order: 12,
  productIds: [
  3002
  ],
  created_at: "2025-04-14T14:13:45.390Z",
- updated_at: "2025-04-14T18:46:56.038Z"
+ updated_at: "2025-04-15T07:40:27.449Z"
  },
  {
  id: 1001,
