@@ -1,5 +1,5 @@
 const CATEGORIES = [
-  {
+ {
     id: 1,
     name: "Modi perspiciatis e",
     slug: "Ad consequuntur veli",
@@ -14,8 +14,8 @@ const CATEGORIES = [
     ],
     created_at: "2025-04-12T15:27:50.077Z",
     updated_at: "2025-04-15T11:22:32.948Z"
-  },
-  {
+ },
+ {
     id: 2,
     name: "test 2",
     slug: "Cupidatat officia re",
@@ -28,8 +28,8 @@ const CATEGORIES = [
     productIds: [],
     created_at: "2025-04-12T19:13:28.986Z",
     updated_at: "2025-04-14T14:08:18.888Z"
-  },
-  {
+ },
+ {
     id: 1000,
     name: "test 2 sadf",
     slug: "new-category",
@@ -45,8 +45,8 @@ const CATEGORIES = [
     ],
     created_at: "2025-04-14T14:13:45.390Z",
     updated_at: "2025-04-15T11:23:38.516Z"
-  },
-  {
+ },
+ {
     id: 1002,
     name: "New Category33 ",
     slug: "new-category",
@@ -59,10 +59,10 @@ const CATEGORIES = [
     productIds: [],
     created_at: "2025-04-15T07:36:01.883Z",
     updated_at: "2025-04-15T11:12:05.935Z"
-  },
-  {
+ },
+ {
     id: 1003,
-    name: "New Category44",
+    name: "New Category444",
     slug: "new-category",
     description: "44",
     imageUrl: "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/category_images/377903_mrp_fr_l.jpg",
@@ -75,6 +75,6 @@ const CATEGORIES = [
       2001
     ],
     created_at: "2025-04-15T09:03:01.478Z",
-    updated_at: "2025-04-15T11:07:56.694Z"
-  }
+    updated_at: "2025-04-15T11:31:58.758Z"
+ }
 ];
