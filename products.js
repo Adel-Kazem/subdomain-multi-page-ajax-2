@@ -202,7 +202,8 @@ const PRODUCTS = [
  categories: [
  301,
  305,
- 310
+ 310,
+ 1003
  ],
  upselling: [
  2005,
@@ -217,7 +218,13 @@ const PRODUCTS = [
  2003
  ],
  createdAt: "2025-01-15T11:30:00Z",
- updatedAt: "2025-04-14T18:46:50.511Z"
+ updatedAt: "2025-04-15T10:39:43.437Z",
+ _categoryChanges: {
+ added: [
+ 1003
+ ],
+ removed: []
+ }
  },
  {
  id: 3002,
