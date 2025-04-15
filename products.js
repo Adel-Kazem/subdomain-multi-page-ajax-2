@@ -71,7 +71,7 @@ const PRODUCTS = [
  },
  {
     id: 2001,
-    name: "SoundWave Portable Bluetooth Speakerddf fgfdg",
+    name: "qqqqqqqqqqqqqq",
     description: "Premium portable speaker with rich sound, 24-hour battery life, and waterproof design. Perfect for outdoor adventures or home use with seamless Bluetooth connectivity and built-in microphone for calls.",
     base_price: 79.99,
     base_shipping_cost: 5.99,
@@ -213,7 +213,7 @@ const PRODUCTS = [
       2003
     ],
     createdAt: "2025-01-15T11:30:00Z",
-    updatedAt: "2025-04-15T11:31:41.826Z"
+    updatedAt: "2025-04-15T11:32:43.774Z"
  },
  {
     id: 3002,
