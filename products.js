@@ -341,5 +341,53 @@ const PRODUCTS = [
     relatedProducts: [],
     createdAt: "2025-04-11T07:25:54.546Z",
     updatedAt: "2025-04-15T11:19:55.707Z"
+  },
+  {
+    id: 9000,
+    name: "zzzzzzzzzzzzz",
+    description: "Incidunt deserunt v",
+    base_price: 20,
+    base_shipping_cost: 18,
+    free_shipping: false,
+    sku: "Recusandae Nemo ess",
+    slug: "new-product",
+    brand: "Sunt facilis veniam",
+    rating: 0,
+    reviews_count: 0,
+    status: "active",
+    isFeatured: true,
+    isOnSale: false,
+    requiresShipping: false,
+    requiresInventoryTracking: false,
+    stock: 0,
+    hasVariants: false,
+    totalVariantStock: 0,
+    lowStockThreshold: 5,
+    features: {},
+    images: [
+      "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/661784_mrp_in_l.jpg"
+    ],
+    options: {},
+    option_images: {},
+    variant_images: {},
+    option_variants_stock: {},
+    option_price_adjustments: {},
+    option_shipping_adjustments: {},
+    weight: {
+      value: 36,
+      unit: "oz"
+    },
+    dimensions: {
+      length: 48,
+      width: 69,
+      height: 54,
+      unit: "cm"
+    },
+    option_dimension_overrides: {},
+    categories: [
+      1000
+    ],
+    createdAt: "2025-04-15T11:21:24.277Z",
+    updatedAt: "2025-04-15T11:21:24.277Z"
   }
 ];
