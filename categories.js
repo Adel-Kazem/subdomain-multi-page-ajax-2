@@ -70,5 +70,19 @@ const CATEGORIES = [
  productIds: [],
  created_at: "2025-04-15T07:36:01.883Z",
  updated_at: "2025-04-15T07:36:01.883Z"
+ },
+ {
+ id: 1003,
+ name: "New Category44",
+ slug: "new-category",
+ description: "44",
+ imageUrl: "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/category_images/377903_mrp_fr_l.jpg",
+ featured: false,
+ parent_id: null,
+ active: true,
+ display_order: 15,
+ productIds: [],
+ created_at: "2025-04-15T09:03:01.478Z",
+ updated_at: "2025-04-15T09:03:01.478Z"
  }
 ];
