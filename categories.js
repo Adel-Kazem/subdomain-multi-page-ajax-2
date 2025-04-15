@@ -44,24 +44,6 @@ const CATEGORIES = [
     updated_at: "2025-04-15T07:40:27.449Z"
   },
   {
-    id: 1001,
-    name: "New Category ",
-    slug: "new-category",
-    description: "new category!",
-    imageUrl: "",
-    featured: false,
-    parent_id: null,
-    active: true,
-    display_order: 13,
-    productIds: [
-      1001,
-      2001,
-      3002
-    ],
-    created_at: "2025-04-15T07:16:54.827Z",
-    updated_at: "2025-04-15T11:19:24.918Z"
-  },
-  {
     id: 1002,
     name: "New Category33 ",
     slug: "new-category",
