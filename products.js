@@ -91,14 +91,14 @@ const PRODUCTS = [
     totalVariantStock: 215,
     lowStockThreshold: 15,
     features: {
-      batteryLife: "24 hours",
       waterproofRating: "IPX7",
       bluetoothVersion: "5.2",
       powerOutput: "20W",
       chargingTime: "3 hours",
       connectivity: "Bluetooth, AUX, USB-C",
       microphoneType: "Noise-cancelling",
-      warranty: "2 years"
+      warranty: "2 years",
+      aaaaa: "bbbbbbb"
     },
     images: [
       "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&auto=format&fit=crop",
@@ -213,7 +213,7 @@ const PRODUCTS = [
       2003
     ],
     createdAt: "2025-01-15T11:30:00Z",
-    updatedAt: "2025-04-15T11:41:17.902Z"
+    updatedAt: "2025-04-15T11:48:07.530Z"
  },
  {
     id: 3002,
