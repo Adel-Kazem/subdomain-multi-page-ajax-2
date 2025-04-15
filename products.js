@@ -52,7 +52,8 @@ const PRODUCTS = [
     },
     option_dimension_overrides: {},
     categories: [
-      1003
+      1003,
+      1001
     ],
     upselling: [
       1005,
@@ -67,7 +68,7 @@ const PRODUCTS = [
       1003
     ],
     createdAt: "2025-01-10T13:20:00Z",
-    updatedAt: "2025-04-15T11:12:05.939Z"
+    updatedAt: "2025-04-15T11:19:24.913Z"
   },
   {
     id: 2001,
