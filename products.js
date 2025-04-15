@@ -341,5 +341,53 @@ const PRODUCTS = [
     relatedProducts: [],
     createdAt: "2025-04-11T07:25:54.546Z",
     updatedAt: "2025-04-15T11:19:55.707Z"
+  },
+  {
+    id: 9000,
+    name: "zzzzzzzzzz2",
+    description: "Ex nobis aute cupida",
+    base_price: 96,
+    base_shipping_cost: 0,
+    free_shipping: true,
+    sku: "Deleniti eum et illo",
+    slug: "new-product",
+    brand: "Porro velit fugiat d",
+    rating: 0,
+    reviews_count: 0,
+    status: "archived",
+    isFeatured: false,
+    isOnSale: false,
+    requiresShipping: false,
+    requiresInventoryTracking: true,
+    stock: 0,
+    hasVariants: false,
+    totalVariantStock: 0,
+    lowStockThreshold: 5,
+    features: {},
+    images: [
+      "https://raw.githubusercontent.com/Adel-Kazem/subdomain-multi-page-ajax-2/main/products_images/377903_mrp_fr_l.jpg"
+    ],
+    options: {},
+    option_images: {},
+    variant_images: {},
+    option_variants_stock: {},
+    option_price_adjustments: {},
+    option_shipping_adjustments: {},
+    weight: {
+      value: 63,
+      unit: "kg"
+    },
+    dimensions: {
+      length: 95,
+      width: 50,
+      height: 44,
+      unit: "mm"
+    },
+    option_dimension_overrides: {},
+    categories: [
+      1
+    ],
+    createdAt: "2025-04-15T11:22:32.939Z",
+    updatedAt: "2025-04-15T11:22:32.939Z"
   }
 ];
